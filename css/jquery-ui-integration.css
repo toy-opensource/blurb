@@ -1,0 +1,26 @@
+a:hover { cursor:pointer; cursor:hand; }
+
+.ui-dialog {border: solid 1px red;}
+	.ui-dialog .widefat th { padding:5px 7px 6px; }
+
+	.ui-dialog .list-header { font-weight: bold; float: left; border: solid 0px red; }
+	.ui-dialog .findpost-group-toggle { margin: 0 0 0 15px; }
+		.ui-dialog .findpost-group-toggle a{ font-weight: bold; text-decoration: none; float: left; border: solid 0px red; }
+		.ui-dialog .findpost-group-toggle a:hover{ text-decoration: underline; }
+
+	.ui-dialog .title-text-input input {display: block;}
+	.ui-dialog ul#post-type-ul {display: block;}
+	.ui-dialog ul#category-ul {display: none;border: solid 0px green;}
+	.ui-dialog input#tag-input {display: none; }
+
+
+	.ui-dialog .find-posts-form-submit {float: right;}
+
+.post-type-list li { float:left; padding-right:8px; }
+
+.post-bucket { margin-top:5px; }
+
+.post-in-bucket { margin-bottom:5px; border:1px solid #888888; background-color:#efefef; cursor:n-resize; }
+	.post-in-bucket .bucket-post-title { padding:3px; }
+	.post-in-bucket .remove-post-from-bucket { color:maroon; font-weight:bold; float:right; cursor:pointer; margin:0 3px; }
+

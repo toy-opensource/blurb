@@ -1,0 +1,13 @@
+/****************************************************************
+* file: 	plugins/custom-blurb/css/templates/title-teaser.css
+* author:	toy
+* date:		02sep11
+* re:		css custom blurb title teaser css for template
+*
+*
+* rev history
+* [toy 08sep11]		orig version
+* 
+*****************************************************************/
+.title-teaser-blurb {}
+    .title-teaser-blurb li {padding: 0 10px 0 0; border: solid 0px red; }

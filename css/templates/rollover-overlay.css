@@ -1,0 +1,28 @@
+/****************************************************************
+* file: 	plugins/custom-blurb/css/templates/rollover.css
+* author:	toy
+* date:		02sep11
+* re:		css custom blurb rollover template
+*
+*
+* rev history
+* [toy 08sep11]		orig version
+* 
+*****************************************************************/
+.blurb-image { 
+	position: relative; 
+	z-index: 50;
+}
+
+
+.blurb-overlay{
+	position: absolute;
+	left: 0; 
+	bottom: 0;
+	
+	display: none;
+	background: gray;
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+	z-index: 1;
+}
